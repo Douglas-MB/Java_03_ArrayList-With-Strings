@@ -23,7 +23,7 @@ public class NumSei {
 
     public String word(){
 
-        return Arrays.toString(letter())+" ";
+        return new String(letter())+" ";
     }
     public void listWord(){
         int size = 5;
